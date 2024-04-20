@@ -1,7 +1,7 @@
 Flask==3.0.3
 Flask-Cors==4.0.0
 Flask-RESTful==0.3.10
-joblib=1.2.0
+joblib==1.2.0
 gunicorn==22.0.0
 pandas==2.0.3
 XGBoost==2.0.3
