@@ -11,7 +11,7 @@ CORS(app)
 api = Api(app)
 
 #prediction Api call
-model = joblib.load(open('D:\\CS Materials\\Project\\PData\\api\\you\\model.pkl','rb'))
+model = joblib.load(open('C:\\Users\\20109\\model v1.pkl','rb'))
 
 @app.route('/')
 def home():
